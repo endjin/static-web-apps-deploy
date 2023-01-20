@@ -57,4 +57,4 @@ outputs:
     description: "Url of the application"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: "docker://endjin/static-web-apps-deploy:v1"
